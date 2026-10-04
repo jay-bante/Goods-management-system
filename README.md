@@ -71,7 +71,7 @@ npm install
 Create or update your environment file with a PostgreSQL connection string:
 
 ```env
-DATABASE_URL="postgresql://postgres:postgres@127.0.0.1:5432/app_db"
+DATABASE_URL="postgresql://postgres:postgres@example123/app_db"
 ```
 
 Make sure PostgreSQL is running locally on port 5432 and the database `app_db` exists.
